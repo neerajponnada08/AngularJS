@@ -9,6 +9,9 @@ import { TestClassBindingComponent } from './test-class-binding/test-class-bindi
 import { TestStyleBindingComponent } from './test-style-binding/test-style-binding.component';
 import { TestEventBindingComponent } from './test-event-binding/test-event-binding.component';
 import { TestTemplateRefVarComponent } from './test-template-ref-var/test-template-ref-var.component';
+import { TestTwowaybindingComponent } from './test-twowaybinding/test-twowaybinding.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -19,10 +22,12 @@ import { TestTemplateRefVarComponent } from './test-template-ref-var/test-templa
     TestClassBindingComponent,
     TestStyleBindingComponent,
     TestEventBindingComponent,
-    TestTemplateRefVarComponent
+    TestTemplateRefVarComponent,
+    TestTwowaybindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
