@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { StudentComponent } from './student/student.component';
 import { TestComponent } from './test/test.component';
 import { TestPropBindingComponent } from './test-prop-binding/test-prop-binding.component';
+import { TestClassBindingComponent } from './test-class-binding/test-class-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentComponent,
     TestComponent,
-    TestPropBindingComponent
+    TestPropBindingComponent,
+    TestClassBindingComponent
   ],
   imports: [
     BrowserModule
