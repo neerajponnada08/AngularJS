@@ -12,6 +12,8 @@ import { TestTemplateRefVarComponent } from './test-template-ref-var/test-templa
 import { TestTwowaybindingComponent } from './test-twowaybinding/test-twowaybinding.component';
 import { FormsModule } from '@angular/forms';
 import { TestNgIfComponent } from './test-ng-if/test-ng-if.component';
+import { TestNgSwitchComponent } from './test-ng-switch/test-ng-switch.component';
+import { TestNgForComponent } from './test-ng-for/test-ng-for.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { TestNgIfComponent } from './test-ng-if/test-ng-if.component';
     TestEventBindingComponent,
     TestTemplateRefVarComponent,
     TestTwowaybindingComponent,
-    TestNgIfComponent
+    TestNgIfComponent,
+    TestNgSwitchComponent,
+    TestNgForComponent
   ],
   imports: [
     BrowserModule,
