@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { TestNgIfComponent } from './test-ng-if/test-ng-if.component';
 import { TestNgSwitchComponent } from './test-ng-switch/test-ng-switch.component';
 import { TestNgForComponent } from './test-ng-for/test-ng-for.component';
+import { TestCompInteractionComponent } from './test-comp-interaction/test-comp-interaction.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { TestNgForComponent } from './test-ng-for/test-ng-for.component';
     TestTwowaybindingComponent,
     TestNgIfComponent,
     TestNgSwitchComponent,
-    TestNgForComponent
+    TestNgForComponent,
+    TestCompInteractionComponent
   ],
   imports: [
     BrowserModule,

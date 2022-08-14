@@ -10,5 +10,7 @@
   <!-- <app-test-twowaybinding></app-test-twowaybinding> -->
   <!-- <app-test-ng-if></app-test-ng-if> -->
   <!-- <app-test-ng-switch></app-test-ng-switch> -->
-  <app-test-ng-for></app-test-ng-for>
+  <!-- <app-test-ng-for></app-test-ng-for> -->
+  <app-test-comp-interaction (childMSG)="msg=$event" [fromParent] = "parentMSG"> </app-test-comp-interaction>
+  <h1>{{msg}}</h1> 
 </div>

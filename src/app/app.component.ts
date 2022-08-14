@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-RSK Training';
+  public parentMSG = "This is from parent";
+  public msg="";
 }
